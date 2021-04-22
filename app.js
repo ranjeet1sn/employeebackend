@@ -13,7 +13,7 @@ const routes = require("./routes/post.routes");
 const userRoutes = require("./routes/user.routes");
 const profileRoutes = require("./routes/profile.routes");
 const taskRoutes=require('./routes/task.route');
-const commonRoutes =require('./routes/common.route')
+const commonRoutes =require('./routes/common.route');
 var cors = require("cors");
 const port = process.env.PORT || 3000;
 require("./connection/connection");

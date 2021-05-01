@@ -57,7 +57,7 @@ exports.loginUser = async (req, res) => {
       });
     let isAdmin = false;
     console.log(user.email);
-    if (user.email === 'qranjeet1@mail.com' ||user.email === 'sranjeet022@gmail.com') {
+    if (user.email === 'qranjeet1@gmail.com' ||user.email === 'sranjeet022@gmail.com') {
       isAdmin = true;
     }
     else {

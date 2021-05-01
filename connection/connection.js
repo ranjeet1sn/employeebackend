@@ -1,5 +1,5 @@
 var mongoose = require('mongoose')
-mongoose.connect(`${process.env.DB_NAME}`, (err) => {
+mongoose.connect('mongodb://localhost:27017/bigdb', (err) => {
     if (!err) {
         console.log("connection sucessfull..")
     }
